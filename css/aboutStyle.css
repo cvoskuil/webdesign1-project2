@@ -1,4 +1,5 @@
-body {
+body
+{
     background-color: firebrick !important;
 }
 #pagewrapper
@@ -8,7 +9,7 @@ body {
     margin:0 auto;
     margin-top: 30px;
     margin-bottom:30px;
-    padding:20px;
+    padding:10px;
 }
 .thumbnail
 {
