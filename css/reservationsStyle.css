@@ -1,0 +1,62 @@
+﻿body
+{
+    background-color: firebrick !important;
+}
+#pageWrapper
+{
+    width:900px;
+    background-color:tan;
+    margin:0 auto;
+    margin-top: 30px;
+    margin-bottom:30px;
+    padding:10px;
+}
+h1
+{
+    text-align: center;
+}
+span
+{
+    font-size:50px;
+}
+h2
+{
+    text-align:center;
+}
+#reservationsWrapper
+{
+    height:800px;
+    padding:20px;
+}
+.list-group-item
+{
+    background-color:#f5f5f5 !important;
+}
+p
+{
+    font-size:15px;
+    padding:20px;
+    text-align:center;
+}
+img
+{
+    width:410px;
+    padding:20px;
+}
+#reservationsBox
+{
+    height:200px;
+    width:410px;
+    margin-left:430px;
+    padding:20px;
+}
+#button
+{
+    margin-top:10px;
+}
+#reservationsField
+{
+    height:230px;
+}
+
+
