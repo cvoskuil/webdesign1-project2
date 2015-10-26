@@ -9,53 +9,79 @@
     <title>123 Steak | Location Info</title>
 </head>
 <body>
+
     <div id="pageWrapper">
-        <div class="page-header">
-            <h1>123 Steak<br /><small>Hours &amp; Location Info</small></h1>
-        </div>
 
-        <div id="mapWrapper">
-            <p>Our resturant is located in the heart of the emerald city's vibrant Queen Anne district, with panoramic views of Seattle and Puget Sound. We are open latest on fridays. Why not dine with a view of the setting sun on this unique and majestic cityscape?</p>
-            <iframe align="left" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3803.2066621840263!2d-122.35011160224347!3d47.620820009973585!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0000000000000000%3A0xdb2ba8689ed0920d!2sSpace+Needle!5e0!3m2!1sen!2sus!4v1445613538437" width="410" height="580" frameborder="0" style="border:0" allowfullscreen></iframe>
-            <div id="hoursWrapper">
-                <h2>Hours</h2>
-                <ul class="list-group">
-                    <li class="list-group-item">Monday<br />12:00PM to 7:00PM</li>
-                    <li class="list-group-item">Tuesday - Thursday<br />11:00AM to 8:00PM</li>
-                    <li class="list-group-item">Friday<br />11:00AM to 11:00PM</li>
-                    <li class="list-group-item">Saturday<br />9:00AM to 10:00PM</li>
-                    <li class="list-group-item">Sunday<br />9:00AM to 7:00PM</li>
-                </ul>
-                <h2>Address</h2>
-                <div class="well">
-                    400 Broad St
-                    <br />
-                    Seattle, WA
-                    <br />
-                    98109
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="index.html">123 Steak</a>
+                </div>
+
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="location.html">Hours &amp; Location Info</a></li>
+                        <li><a href="reservations.html">Reservations &amp; Contact</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="menu.html">Menu</a></li>
+                    </ul>
                 </div>
             </div>
+        </nav>
 
-            <div id="directionsWrapper">
-                <div class="col-lg-6">
-                    <div class="input-group">
-                        <form action="http://maps.google.com" method="get" target="_blank">
-                            <input type="text" class="form-control" placeholder="Enter Starting Address" name="saddr">
-                            <input type="hidden" name="daddr" value="400 Broad St, Seattle, WA 98109" />
+
+                <div class="page-header">
+                    <h1>123 Steak<br /><small>Hours &amp; Location Info</small></h1>
+                </div>
+
+                <div id="mapWrapper">
+                    <p>Our resturant is located in the heart of the emerald city's vibrant Queen Anne district, with panoramic views of Seattle and Puget Sound. We are open latest on fridays. Why not dine with a view of the setting sun on this unique and majestic cityscape?</p>
+                    <iframe align="left" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3803.2066621840263!2d-122.35011160224347!3d47.620820009973585!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0000000000000000%3A0xdb2ba8689ed0920d!2sSpace+Needle!5e0!3m2!1sen!2sus!4v1445613538437" width="410" height="580" frameborder="0" style="border:0" allowfullscreen></iframe>
+                    <div id="hoursWrapper">
+                        <h2>Hours</h2>
+                        <ul class="list-group">
+                            <li class="list-group-item">Monday<br />12:00PM to 7:00PM</li>
+                            <li class="list-group-item">Tuesday - Thursday<br />11:00AM to 8:00PM</li>
+                            <li class="list-group-item">Friday<br />11:00AM to 11:00PM</li>
+                            <li class="list-group-item">Saturday<br />9:00AM to 10:00PM</li>
+                            <li class="list-group-item">Sunday<br />9:00AM to 7:00PM</li>
+                        </ul>
+                        <h2>Address</h2>
+                        <div class="well">
+                            400 Broad St
                             <br />
+                            Seattle, WA
                             <br />
-                            <center>
-                                <span class="input-group-btn">
-                                    <button class="btn btn-default" type="submit">Get Directions</button>
-                                </span>
-                            </center>
-                        </form>
+                            98109
+                        </div>
                     </div>
-                </div>
-            </div>
 
-        </div>
-        <h1>&copy; 2015 123 Steak | Voskuil Tyler Misra</h1>
-    </div>
+                    <div id="directionsWrapper">
+                        <div class="col-lg-6">
+                            <div class="input-group">
+                                <form action="http://maps.google.com" method="get" target="_blank">
+                                    <input type="text" class="form-control" placeholder="Enter Starting Address" name="saddr">
+                                    <input type="hidden" name="daddr" value="400 Broad St, Seattle, WA 98109" />
+                                    <br />
+                                    <br />
+                                    <center>
+                                        <span class="input-group-btn">
+                                            <button class="btn btn-default" type="submit">Get Directions</button>
+                                        </span>
+                                    </center>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <h1>&copy; 2015 123 Steak | Voskuil Tyler Misra</h1>
+            </div>
 </body>
 </html>
