@@ -2,14 +2,13 @@
 {
     background-color: firebrick !important;
 }
-#indexWrapper
+#pageWrapper
 {
     width:900px;
     background-color:tan;
     margin:0 auto;
     margin-top: 30px;
     margin-bottom:30px;
-    
     padding:10px;
 }
 h1
@@ -28,7 +27,6 @@ h2
 {
     height:900px;
     padding:20px;
-    border:solid;
 }
 #hoursWrapper
 {
@@ -36,7 +34,6 @@ h2
     width:410px;
     margin-left:430px;
     padding:20px;
-    border:solid
 }
 .list-group-item
 {
@@ -49,8 +46,8 @@ p
 }
 #directionsWrapper
 {
-    margin: 0 auto;
     margin-top: 20px;
+    margin-left: 300px;
 }
 
 
